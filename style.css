@@ -1,0 +1,27 @@
+.navbar.bg-inverse{
+	background: transparent !important;
+}
+
+.jumbotron{
+	background-image:url(bg-index.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 900px;
+}
+
+.jumbotron .jumb-cont{
+	padding: 50px;
+    max-width: 65%;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px #000000;
+}
+.jumbotron .educ{
+	background-image:url(bg-educ.jpg);
+}
+.jumbotron .gall{
+	background-image:url(bg-gall.jpg);
+}
+.jumbotron .home{
+	background-image:url(bg-home.jpg); 
+}
