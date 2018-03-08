@@ -1,5 +1,6 @@
 .navbar.bg-inverse{
 	background: transparent !important;
+
 }
 
 .jumbotron{
@@ -7,6 +8,7 @@
     background-repeat:no-repeat;
     background-size: cover;
     height: 900px;
+    opacity: 50%;
 }
 .jumbotron .jumb-cont{
 	padding: 50px;
@@ -15,12 +17,26 @@
     color: #fff;
     text-shadow: 1px 1px #000000;
 }
+
+.jumbotron .jumb-home{
+	padding: 20px;
+    max-width: 65%;
+    text-align: left;
+    color: #fff;
+    text-shadow: 1px 1px #000000;
+    overflow: hidden;
+}
+
 .jumbotron .educ{
 	background-image:url(bg-educ.jpg);
+	background-repeat: no-repeat;
 }
 .jumbotron .gall{
 	background-image:url(bg-gall.jpg);
+	background-repeat: no-repeat;
 }
 .jumbotron .home{
 	background-image:url(bg-home.jpg); 
+	background-repeat: no-repeat;
 }
+
